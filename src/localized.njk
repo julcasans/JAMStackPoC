@@ -8,7 +8,15 @@ pagination:
 permalink: /{{ news.country }}/index.html
 ---
 
+  <div id="weather" class="hidden">
+    <h2>Weather near you</h2>
+    <p id="city"></p>
+    <p id="temp"></p>
+    <p id="main"></p>
+    <p id="desc"></p>
+  </div>
 
+  <h2>News in your country</h2>
   <div class="container">
     <h1>This is a page for you</h1>
     <div class="vibe">You're great!</div>
@@ -22,4 +30,5 @@ permalink: /{{ news.country }}/index.html
     {% endfor %}
     </ul>
   </div>
-  <script src="js/vibe.js"></script>
+  <script src="/js/vibe.js"></script>
+  <script src="/js/weather.js"></script>

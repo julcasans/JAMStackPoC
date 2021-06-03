@@ -16,9 +16,15 @@
     .love {
       font-size: 4em;
     }
+    .hidden {
+      display: none;
+    }
   </style>
 </head>
 <body>
+  <header>
+    <a href="/">Your page</a> | <a href="/about">About this page of yours</a>
+  </header>
   {{ content | safe }}
 </body>
 </html>
