@@ -1,12 +1,5 @@
 module.exports = function(config) {
 
-  // config.setBrowserSyncConfig({
-  //   https: {
-  //     key: '/etc/localhost.key',
-  //     cert: '/ect/localhost.crt'
-  //   }
-  // });
-
   config.addPassthroughCopy('src/js');
 
   return {
